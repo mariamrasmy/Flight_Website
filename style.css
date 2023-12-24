@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 1px;
+}
+.cover{
+    width: 1171px;
+    height: 600px;
+    background: url("plane1.jpg");
+    background-size: contain;
+    /* الcontain هيعمل repeatللصورة في الاجزاء الفاضية */
+    background-position: center;
+    display: flex;
+}
+.text{
+    position:relative ;
+    left: 43%;
+    color: white;
+    font-size: 30px;
+}
+/* book{
+    position:relative ;
+    left: 73%;
+    color: white;
+}  */
+.insta{
+    position:relative ;
+    left: 73%;
+
+}
+.my-button{
+    background-color:black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+.footer {
+    height: 200px;
+    width: 100%;
+    bottom: auto;
+    background-size: contain;
+    text-align: center;
+    padding: 3px;
+    background-color: #6D6875;
+    color: white;
+    text-decoration: underline;
+  }
